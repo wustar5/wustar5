@@ -1,0 +1,179 @@
+@charset "utf-8";
+body{
+    overflow-y: hidden;
+    height: auto;
+    padding: 0px;
+}
+.outer{
+  height:100%;
+  padding: 0px;
+  display: flex;
+  flex-direction:column ;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+.pl{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .nav{
+    height:10vh;
+    max-height:10%;
+    padding:0px;
+    position: relative;
+}
+.navimg{
+  min-height:10vh;
+  width: 100%;
+  padding: 0px
+}
+
+.navbta{
+  position: absolute;
+  justify-content: center;
+  top:25%;
+  right: 1%;
+  max-height: 10vh;
+}
+.navbtb{
+  display: flex;
+  flex-direction:row;
+  justify-items: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.title{
+    height:8vh;
+    max-height:8%;
+}
+
+.titleimg{
+    width: 45%;
+    min-width: 45%;
+}
+
+.titleimg2{
+  width: 60%;
+  min-width: 60%;
+}
+
+.part1
+{
+  height: 39vh;
+  max-height: 39%;
+}
+
+.leftimg{
+  background-color: #e1eef3;
+
+}
+.nosignal{
+  width:65%;
+  max-width: 65%;
+
+}
+.righttop{
+  flex-direction: column;
+  display:flex ;
+  justify-content: center;
+  align-content: center;
+  
+}
+.righttext{
+  height: 31vh;
+  max-height: 80%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #80a5b9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.texttop1{
+  color: #009EFF;
+}
+.texttop2{
+  color: #FFB300;
+}
+.texttop3{
+  color: #FF0075;
+}
+.texttop4{
+  color: #80a5b9;
+}
+.rightbotton{
+  max-height: 8vh;
+}
+.part2{
+  height: 39vh;
+  max-height: 39%;
+}
+.part2left{
+  background-color: #e1eef3;
+  width: 100%;
+}
+
+.rightbotton2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #80a5b9;
+  height: 39vh;
+  max-height: 100%;
+}
+
+.footer{
+  margin-top: 2px;
+  max-height: 4%;
+  width: 100%;
+  padding: 0px;
+}
+
+@media only screen and (min-width: 769px) {
+
+  h4{
+    font-size: 26px;
+}
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+h2{
+  font-size: 20px;
+}
+  h3{
+    font-size: 12px;
+}
+  h4{
+    font-size: 15px;
+}
+  h5{
+  font-size: 6px;
+}
+h6{
+  font-size: 3px;
+}
+}
+@media only screen and (min-width: 0px) and (max-width: 320px){
+h3{
+    font-size: 10px;
+}
+  h4{
+    font-size: 7px;
+}
+h5{
+  font-size: 4px;
+}
+
+h6{
+  font-size: 1px;
+}
+
+button
+{
+  height: 50%;
+}
+
+}
